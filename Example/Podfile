@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZZCardView_Example' do
+  pod 'ZZCardView', :path => '../'
+
+  target 'ZZCardView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
