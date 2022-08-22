@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "ZZCardView/Classes/**/*"
+  "source_files": "ZZCardView/Classes/**/*",
+  "frameworks": "UIKit"
 }

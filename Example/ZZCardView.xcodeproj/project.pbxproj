@@ -38,14 +38,14 @@
 		607FACE51AFB9204008FA782 /* ZZCardView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZCardView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		61CB5F1CAD043907E21FDE1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		61CB5F1CAD043907E21FDE1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6C14F3474A88649547822EBD /* Pods-ZZCardView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZCardView_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZZCardView_Example/Pods-ZZCardView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		729312024EBDCF4D303B9529 /* Pods_ZZCardView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZCardView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90ECFB315492381C293E0F4B /* Pods-ZZCardView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZCardView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZZCardView_Tests/Pods-ZZCardView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4245CCCD6A8D649D74977DD /* Pods-ZZCardView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZCardView_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZZCardView_Tests/Pods-ZZCardView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AF67C3AFF56F77EF226F5D5A /* Pods-ZZCardView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZCardView_Example.release.xcconfig"; path = "Target Support Files/Pods-ZZCardView_Example/Pods-ZZCardView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CB8D39B6570E1B3114596DC7 /* ZZCardView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZZCardView.podspec; path = ../ZZCardView.podspec; sourceTree = "<group>"; };
-		D21E87B7A6C9845B49D7E9FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CB8D39B6570E1B3114596DC7 /* ZZCardView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZZCardView.podspec; path = ../ZZCardView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D21E87B7A6C9845B49D7E9FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D7063F7C4C7817AC88DB61E0 /* Pods_ZZCardView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZCardView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				90ECFB315492381C293E0F4B /* Pods-ZZCardView_Tests.debug.xcconfig */,
 				A4245CCCD6A8D649D74977DD /* Pods-ZZCardView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -484,7 +484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -499,7 +499,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
