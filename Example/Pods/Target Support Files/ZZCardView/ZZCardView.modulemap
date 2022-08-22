@@ -1,0 +1,6 @@
+framework module ZZCardView {
+  umbrella header "ZZCardView-umbrella.h"
+
+  export *
+  module * { export * }
+}

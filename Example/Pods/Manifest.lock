@@ -1,0 +1,16 @@
+PODS:
+  - ZZCardView (0.0.1)
+
+DEPENDENCIES:
+  - ZZCardView (from `../`)
+
+EXTERNAL SOURCES:
+  ZZCardView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZZCardView: 0c87a560700e35a41954c530a4e4902f550be266
+
+PODFILE CHECKSUM: 8386c8772b70e82e681454dd70de5b1e833d7dbe
+
+COCOAPODS: 1.11.3
