@@ -21,6 +21,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
   s.platform              = :ios, "9.0"
+  s.swift_version = '5.0'
 
   s.source_files = 'ZZCardView/Classes/**/*'
   
@@ -29,6 +30,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit'
+  # s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

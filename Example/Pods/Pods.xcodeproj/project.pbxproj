@@ -8,22 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		0C147D56FA9087494515F166AC4627D6 /* Pods-ZZCardView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CBD6EB0CF38750CFEA45190C3CD90B /* Pods-ZZCardView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33B0B162B4B5D5FD22122FA5FF670764 /* ZZCardView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B925BBAF4E86AC9C7B548C5838A3CBE /* ZZCardView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A8E557A885C25345C29E2393B30B7CB /* ZZCardView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D8F4781A2287129A425EEB8AA90231 /* ZZCardView-dummy.m */; };
+		31550C66AC9B1822A542C4B2879066ED /* ZZCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803E931F2AA2C218DB10A9B621E11F5 /* ZZCardCell.swift */; };
 		60D50A3CFFA7B0C93B1621FF72375C10 /* Pods-ZZCardView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C90FB1BF36B447F260D2FBCB134D08A /* Pods-ZZCardView_Tests-dummy.m */; };
-		6D97B0E7EEBA634B9DF7F11B50C3D059 /* ZZCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803E931F2AA2C218DB10A9B621E11F5 /* ZZCardCell.swift */; };
-		83033AB52E1E4142966B7618CE5E99C3 /* ZZCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B71EAC7D46BAE11257C8E429295E6B /* ZZCardView.swift */; };
-		8C8CAA0B958EFD7594E8C614E62782EC /* ZZCardView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D8F4781A2287129A425EEB8AA90231 /* ZZCardView-dummy.m */; };
-		96EE29A7F3E127FE00E6462668840A8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		9F67911F8BDC5A1534D5C06FD196BB63 /* ZZCardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFD25325AF4A6C2D8F1D2BAD79617ED /* ZZCardLayout.swift */; };
-		ACFB108C64FFF760CFED6519CFEE3FD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		BDF5BBB56C2A42B520FFD05DA06025FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		7DC1A1FF04635B4B70730CB20EF99D9C /* ZZCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B71EAC7D46BAE11257C8E429295E6B /* ZZCardView.swift */; };
+		96EE29A7F3E127FE00E6462668840A8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AA7E2E2E936B6C7479ABD1A83BCCFDF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ACFB108C64FFF760CFED6519CFEE3FD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C35ED20B1368C21E88DA469FEB2F9504 /* Pods-ZZCardView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CE40ADF5498E9DBC735E01229C0BD0 /* Pods-ZZCardView_Example-dummy.m */; };
-		E840E1FDFE91BE0DA31997DE2D526C44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		C3A3D605E35DAFC2B13A0FB9D9CAA9B0 /* ZZCardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFD25325AF4A6C2D8F1D2BAD79617ED /* ZZCardLayout.swift */; };
 		EB1F4750F75406903B4E9FC8AF7A5CDF /* Pods-ZZCardView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0F7D43EBB7D1F9FD199E091A65B348 /* Pods-ZZCardView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEA529DED14BB99D92885EDF6765F3EF /* ZZCardView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B925BBAF4E86AC9C7B548C5838A3CBE /* ZZCardView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5B8B0C75F328C9867DD4398AB513F997 /* PBXContainerItemProxy */ = {
+		A97CB72A061C450731EB4E76DB0F8FD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -57,6 +56,7 @@
 		5B23C82FC5B20C3D421A18A2B8C368C4 /* Pods-ZZCardView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZCardView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6B925BBAF4E86AC9C7B548C5838A3CBE /* ZZCardView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZCardView-umbrella.h"; sourceTree = "<group>"; };
 		716B749F811E242FC473799DB91AAF6D /* ZZCardView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZZCardView-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74A3A7739F411557AA31AF1752BF6C1C /* Pods-ZZCardView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZCardView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		75CAA0CEF538DCD92FDFAB536100EBAD /* Pods-ZZCardView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZCardView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		78357DB5E90F9FB8457E7D1468D1B1C0 /* Pods-ZZCardView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZCardView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -67,7 +67,6 @@
 		A76150B2263F29AD3801E1C58CF630D3 /* Pods-ZZCardView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZCardView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A803E931F2AA2C218DB10A9B621E11F5 /* ZZCardCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZZCardCell.swift; path = ZZCardView/Classes/ZZCardView/ZZCardCell.swift; sourceTree = "<group>"; };
 		A9F5C49DEFDF6C87DCCDB1342A105958 /* ZZCardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZCardView.debug.xcconfig; sourceTree = "<group>"; };
-		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D2CE40ADF5498E9DBC735E01229C0BD0 /* Pods-ZZCardView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZCardView_Example-dummy.m"; sourceTree = "<group>"; };
 		D7CBD6EB0CF38750CFEA45190C3CD90B /* Pods-ZZCardView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZZCardView_Example-umbrella.h"; sourceTree = "<group>"; };
 		D83DBB3DBB4C6AC13D0B741655B1EEE3 /* ZZCardView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZZCardView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -75,19 +74,9 @@
 		E32F301DC2257277E86A4E7258BF1943 /* Pods-ZZCardView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZCardView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E92793D246492B474EB99DEADF775119 /* Pods-ZZCardView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZZCardView_Tests.modulemap"; sourceTree = "<group>"; };
 		EA4AB73BD793364578ECA0162D7D41B7 /* Pods-ZZCardView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZZCardView_Tests"; path = Pods_ZZCardView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1751A432D3E36B3FFEBE1255261EA1FD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E840E1FDFE91BE0DA31997DE2D526C44 /* Foundation.framework in Frameworks */,
-				BDF5BBB56C2A42B520FFD05DA06025FE /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		737BBAD73190FC4513681419BB213A5C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -104,6 +93,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B7EDD6560D8C1E218885C8DD333BD2F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7E2E2E936B6C7479ABD1A83BCCFDF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -117,19 +114,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
-				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -196,10 +184,18 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				C4C579FE567AEDC6E74F8B901390A4DD /* Development Pods */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				07FA17BAD0F63BCFF72B86E19B484626 /* Products */,
 				C31806102BF61CEF28F1840974D13502 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F82627359BF8B326DEEC16B34AF8557F /* Pods-ZZCardView_Tests */ = {
@@ -236,19 +232,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		508545236030FAEEA794D52E568924B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA529DED14BB99D92885EDF6765F3EF /* ZZCardView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		51649B00050F87F44F6A7D7CC155E736 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EB1F4750F75406903B4E9FC8AF7A5CDF /* Pods-ZZCardView_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C4D15C003EAE16B6B2CB8B64D2D2FA97 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				33B0B162B4B5D5FD22122FA5FF670764 /* ZZCardView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +271,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1BCB9CF9A2C67C82EBA834AA17477542 /* PBXTargetDependency */,
+				318800C1C3E4CE706DBF88D51BA424D0 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZZCardView_Tests";
 			productName = Pods_ZZCardView_Tests;
@@ -303,12 +299,12 @@
 		};
 		7804451A4F8701B3DE528FECD059D624 /* ZZCardView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 842D345B6E63C0D893F9FD0D7938208D /* Build configuration list for PBXNativeTarget "ZZCardView" */;
+			buildConfigurationList = 271A9F8FEE41199B6254A75C5A40102C /* Build configuration list for PBXNativeTarget "ZZCardView" */;
 			buildPhases = (
-				C4D15C003EAE16B6B2CB8B64D2D2FA97 /* Headers */,
-				6E82E05541C7731DA9A97436C16B58E4 /* Sources */,
-				1751A432D3E36B3FFEBE1255261EA1FD /* Frameworks */,
-				5A85B0192ECE978DDA9554F67E1FA303 /* Resources */,
+				508545236030FAEEA794D52E568924B5 /* Headers */,
+				D5FF805D0C2430A8E2B1D7C5E6DCBFD0 /* Sources */,
+				B7EDD6560D8C1E218885C8DD333BD2F3 /* Frameworks */,
+				87C846C59A3404918120BF2226E64BE5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -349,14 +345,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5A85B0192ECE978DDA9554F67E1FA303 /* Resources */ = {
+		6E36A2C3653EB3963C86F8CAB18C17F1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E36A2C3653EB3963C86F8CAB18C17F1 /* Resources */ = {
+		87C846C59A3404918120BF2226E64BE5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -381,17 +377,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E82E05541C7731DA9A97436C16B58E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D97B0E7EEBA634B9DF7F11B50C3D059 /* ZZCardCell.swift in Sources */,
-				9F67911F8BDC5A1534D5C06FD196BB63 /* ZZCardLayout.swift in Sources */,
-				83033AB52E1E4142966B7618CE5E99C3 /* ZZCardView.swift in Sources */,
-				8C8CAA0B958EFD7594E8C614E62782EC /* ZZCardView-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8EC5E2737C1D84349B95B38B673A4EC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -400,14 +385,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5FF805D0C2430A8E2B1D7C5E6DCBFD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31550C66AC9B1822A542C4B2879066ED /* ZZCardCell.swift in Sources */,
+				C3A3D605E35DAFC2B13A0FB9D9CAA9B0 /* ZZCardLayout.swift in Sources */,
+				7DC1A1FF04635B4B70730CB20EF99D9C /* ZZCardView.swift in Sources */,
+				2A8E557A885C25345C29E2393B30B7CB /* ZZCardView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1BCB9CF9A2C67C82EBA834AA17477542 /* PBXTargetDependency */ = {
+		318800C1C3E4CE706DBF88D51BA424D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ZZCardView_Example";
 			target = 665D62F808E7E6D7DCA15D27EC1B025C /* Pods-ZZCardView_Example */;
-			targetProxy = 5B8B0C75F328C9867DD4398AB513F997 /* PBXContainerItemProxy */;
+			targetProxy = A97CB72A061C450731EB4E76DB0F8FD4 /* PBXContainerItemProxy */;
 		};
 		62B8F69AF573B95926F8A6192B94139F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -452,6 +448,36 @@
 			};
 			name = Release;
 		};
+		170F07972B244A9BDCCB7A84DE1DA396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9F5C49DEFDF6C87DCCDB1342A105958 /* ZZCardView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZZCardView/ZZCardView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZZCardView/ZZCardView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZZCardView/ZZCardView.modulemap";
+				PRODUCT_MODULE_NAME = ZZCardView;
+				PRODUCT_NAME = ZZCardView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		210B4B0C5D92F96F53D8DA5A1606E9CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B23C82FC5B20C3D421A18A2B8C368C4 /* Pods-ZZCardView_Tests.debug.xcconfig */;
@@ -484,37 +510,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		497ED7149ABC31BD495972D85667E3E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23003D48EBBC7F0A4E2DE4BFB49D7B61 /* ZZCardView.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZZCardView/ZZCardView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZZCardView/ZZCardView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZZCardView/ZZCardView.modulemap";
-				PRODUCT_MODULE_NAME = ZZCardView;
-				PRODUCT_NAME = ZZCardView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -612,6 +607,37 @@
 			};
 			name = Release;
 		};
+		972803DCD8B4ECD32546AE0375DF352B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23003D48EBBC7F0A4E2DE4BFB49D7B61 /* ZZCardView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZZCardView/ZZCardView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZZCardView/ZZCardView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZZCardView/ZZCardView.modulemap";
+				PRODUCT_MODULE_NAME = ZZCardView;
+				PRODUCT_NAME = ZZCardView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9D1A6A5D11CB8BA77C0729BFEDBC7D23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E32F301DC2257277E86A4E7258BF1943 /* Pods-ZZCardView_Example.debug.xcconfig */;
@@ -639,36 +665,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C02730BE6BC3E82B4552A3CCBA90CEB6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9F5C49DEFDF6C87DCCDB1342A105958 /* ZZCardView.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZZCardView/ZZCardView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZZCardView/ZZCardView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZZCardView/ZZCardView.modulemap";
-				PRODUCT_MODULE_NAME = ZZCardView;
-				PRODUCT_NAME = ZZCardView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -744,6 +740,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		271A9F8FEE41199B6254A75C5A40102C /* Build configuration list for PBXNativeTarget "ZZCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170F07972B244A9BDCCB7A84DE1DA396 /* Debug */,
+				972803DCD8B4ECD32546AE0375DF352B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -758,15 +763,6 @@
 			buildConfigurations = (
 				9D1A6A5D11CB8BA77C0729BFEDBC7D23 /* Debug */,
 				9395D4D3565940504839A36B47F4FE58 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		842D345B6E63C0D893F9FD0D7938208D /* Build configuration list for PBXNativeTarget "ZZCardView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C02730BE6BC3E82B4552A3CCBA90CEB6 /* Debug */,
-				497ED7149ABC31BD495972D85667E3E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
