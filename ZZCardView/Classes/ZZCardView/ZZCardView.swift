@@ -6,14 +6,14 @@
 
 import UIKit
 
-protocol ZZCardViewDataSource: NSObjectProtocol {
+@objc public protocol ZZCardViewDataSource: NSObjectProtocol {
     
-    func numberOfItems(in cardView: ZZCardView) -> Int
-    func cardView(_ cardView: ZZCardView, cellForItemAt indexPath: IndexPath) -> ZZCardCell
+    @objc func numberOfItems(in cardView: ZZCardView) -> Int
+    @objc func cardView(_ cardView: ZZCardView, cellForItemAt indexPath: IndexPath) -> ZZCardCell
     
 }
 
-@objc protocol ZZCardViewDelegate: NSObjectProtocol {
+@objc public protocol ZZCardViewDelegate: NSObjectProtocol {
     
     @objc optional func cardView(_ cardView: ZZCardView, didSelectItemAt index: Int)
     @objc optional func cardView(_ cardView: ZZCardView, willRemove cell: ZZCardCell, forItemAt index: Int, direction: ZZCardCell.SwipeDirection)
@@ -24,19 +24,19 @@ protocol ZZCardViewDataSource: NSObjectProtocol {
     
 }
 
-class ZZCardView: UIView {
+public class ZZCardView: UIView {
     
-    weak var dataSource: ZZCardViewDataSource?
-    weak var delegate: ZZCardViewDelegate?
-    var cardLayout: ZZCardLayout!
-    var collectionView: UICollectionView!
+    public weak var dataSource: ZZCardViewDataSource?
+    public weak var delegate: ZZCardViewDelegate?
+    public var cardLayout: ZZCardLayout!
+    public var collectionView: UICollectionView!
     
-    convenience init(frame: CGRect, cardLayout layout: ZZCardLayout) {
+    public convenience init(frame: CGRect, cardLayout layout: ZZCardLayout) {
         self.init(frame:frame)
         self.setCardLayout(cardLayout: layout)
     }
     
-    func setCardLayout(cardLayout layout: ZZCardLayout) {
+    public func setCardLayout(cardLayout layout: ZZCardLayout) {
         self.cardLayout = layout
         self.collectionView = UICollectionView(frame: self.bounds, collectionViewLayout: self.cardLayout)
         self.collectionView.backgroundColor = .clear
@@ -48,7 +48,7 @@ class ZZCardView: UIView {
     
 }
 
-extension ZZCardView {
+public extension ZZCardView {
     
     final func register<T: UICollectionViewCell>(classCellType: T.Type) {
         let cellID = String(describing: classCellType)
@@ -121,11 +121,11 @@ extension ZZCardView {
 
 extension ZZCardView: UICollectionViewDataSource, UICollectionViewDelegate {
     // MARK: - UICollectionViewDataSource
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.dataSource?.numberOfItems(in: self) ?? 0
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = self.dataSource?.cardView(self, cellForItemAt: indexPath)
         cell?.isPanAnimatedEnd = self.cardLayout.isPanAnimatedEnd
         cell?.maxRemoveDistance = self.cardLayout.maxRemoveDistance
@@ -135,13 +135,13 @@ extension ZZCardView: UICollectionViewDataSource, UICollectionViewDelegate {
         return cell ?? UICollectionViewCell()
     }
     // MARK: - UICollectionViewDelegate
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if (delegate?.responds(to: #selector(delegate?.cardView(_:didSelectItemAt:))) ?? false) {
             self.delegate?.cardView?(self, didSelectItemAt: indexPath.item)
         }
     }
     
-    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+    public func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
         if (delegate?.responds(to: #selector(delegate?.cardView(_:didDisplay:forItemAt:))) ?? false) {
             self.delegate?.cardView?(self, didDisplay: cell as! ZZCardCell, forItemAt: indexPath.item)
         }
@@ -151,7 +151,7 @@ extension ZZCardView: UICollectionViewDataSource, UICollectionViewDelegate {
 
 extension ZZCardView: UIScrollViewDelegate {
     // MARK: - UIScrollViewDelegate
-    func scrollViewDidEndScrollingAnimation(_ scrollView: UIScrollView) {
+    public func scrollViewDidEndScrollingAnimation(_ scrollView: UIScrollView) {
         guard self.cardLayout.isRepeat else { return }
         let index: Int = Int(round(scrollView.contentOffset.y / scrollView.frame.height))
         let lastIndex = (self.dataSource?.numberOfItems(in: self) ?? 0)
@@ -160,7 +160,7 @@ extension ZZCardView: UIScrollViewDelegate {
         }
     }
     
-    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+    public func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         guard self.cardLayout.isRepeat else { return }
         let index: Int = Int(round(scrollView.contentOffset.y / scrollView.frame.height))
         let lastIndex = (self.dataSource?.numberOfItems(in: self) ?? 0)

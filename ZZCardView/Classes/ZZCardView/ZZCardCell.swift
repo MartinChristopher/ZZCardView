@@ -14,7 +14,7 @@ fileprivate extension CGPoint {
     
 }
 
-extension ZZCardCell {
+public extension ZZCardCell {
     
     @objc enum SwipeDirection: Int {
         case none  = 0
@@ -32,7 +32,7 @@ protocol ZZCardCellDelagate: NSObjectProtocol {
     
 }
 
-class ZZCardCell: UICollectionViewCell {
+open class ZZCardCell: UICollectionViewCell {
     
     private var originalTransform: CGAffineTransform = .identity
     private var currentPoint: CGPoint = .zero
@@ -42,12 +42,12 @@ class ZZCardCell: UICollectionViewCell {
     var maxRemoveDistance: CGFloat = 0
     var isPanAnimatedEnd: Bool = false
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         self.addPanGestureRecognizer()
     }
     
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         super.init(coder: coder)
     }
     
@@ -75,7 +75,7 @@ class ZZCardCell: UICollectionViewCell {
     
 }
 
-extension ZZCardCell {
+public extension ZZCardCell {
     
     func remove(swipe direction: SwipeDirection) {
         self.remove(direction: direction, isPan: false)

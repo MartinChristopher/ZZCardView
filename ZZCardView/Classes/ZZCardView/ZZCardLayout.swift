@@ -13,23 +13,23 @@ let GX_SpringVelocity: CGFloat       = 0.8
 let GX_ScreenWidth  = UIScreen.main.bounds.size.width
 let GX_ScreenHeight = UIScreen.main.bounds.size.height
 
-class ZZCardLayout: UICollectionViewLayout {
+public class ZZCardLayout: UICollectionViewLayout {
     /// 卡片可见数量(默认3)
-    open var visibleCount: Int = 3
+    public var visibleCount: Int = 3
     /// 卡片与卡片之间的insets(从上至下，正负皆可)
-    open var cardInsets: UIEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: -10, right: 10)
+    public var cardInsets: UIEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: -10, right: 10)
     /// 侧滑最大角度(默认15°)
-    open var maxAngle: CGFloat = 15.0
+    public var maxAngle: CGFloat = 15.0
     /// 是否重复(默认false)
-    open var isRepeat: Bool = false
+    public var isRepeat: Bool = false
     /// 最大移除距离(默认屏幕的1/4)
-    open var maxRemoveDistance: CGFloat = GX_ScreenWidth * 0.25
+    public var maxRemoveDistance: CGFloat = GX_ScreenWidth * 0.25
     /// 是否需要移除动画结束才可以再次拖拽
-    open var isPanAnimatedEnd: Bool = false
+    public var isPanAnimatedEnd: Bool = false
     
 }
 
-extension ZZCardLayout {
+public extension ZZCardLayout {
     
     override func prepare() {
         self.collectionView?.bounces = false
