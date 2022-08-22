@@ -1,5 +1,5 @@
 PODS:
-  - ZZCardView (0.0.1)
+  - ZZCardView (0.0.2)
 
 DEPENDENCIES:
   - ZZCardView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZZCardView: 82ef1bcf9494468576f7ac706ee0b43235d0d9ff
+  ZZCardView: 0652260c14ce0152e616e4d810c34d61113aea87
 
 PODFILE CHECKSUM: 8386c8772b70e82e681454dd70de5b1e833d7dbe
 

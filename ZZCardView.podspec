@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZZCardView'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of ZZCardView.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
