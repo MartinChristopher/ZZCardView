@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-
+                       
   s.homepage         = 'https://github.com/MartinChristopher/ZZCardView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MartinChristopher' => '519483040@qq.com' }
@@ -21,7 +21,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
   s.platform              = :ios, "9.0"
-  s.swift_version = '5.0'
+  s.swift_version         = '5.0'
 
   s.source_files = 'ZZCardView/**/*.{swift}'
   
